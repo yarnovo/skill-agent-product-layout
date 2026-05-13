@@ -34,12 +34,6 @@ yarnovo/<product>-admin      (可选) 运维后台 · OSS 静态站
 - `agent-fullstack-bootstrapper` advisor · 起 4 仓骨架
 - `~/.claude/memories/feedback_agent_product_file_layout.md` · 老板 5-9 拍
 
-## 分支策略
+## Contributing
 
-- `main` = 主分支 (= 部署源 if 该仓有部署 · 否则 sync ~/.claude submodule)
-- 临时分支: `feat/<name>` · `fix/<name>` · base 永远 `origin/main`
-- PR target = `main` · CI pass + mergeable + 无 conflict 才合
-- lead merge 不 auto · subagent 不自合
-- subagent 创 worktree 干活前必读本 README
-
-详见 `~/.claude/memories/feedback_lead_main_branch_only.md`
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branching strategy + PR workflow.
